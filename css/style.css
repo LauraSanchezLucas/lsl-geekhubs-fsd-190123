@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+}
+
+#navbar{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-sub{
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+.puntos:hover{
+    background-color: #EAEAEA;
+    border-radius: 50px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#main-sup{
+    height: 17em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    
+}
+
+#input{
+    width: 35em;
+    height: 3em;
+    border-radius: 2em;
+    margin-top: 1.5em;
+    border: 0.1em solid rgb(210, 210, 210);
+}
+
+input:hover{
+    box-shadow: rgb(193, 190, 190) 0 0 0.3em 0.02em;
+}
+
+#main-med{
+    height: 2em;
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 0.5em;
+    border: none;
+}
+
+button:hover{
+    box-shadow: rgb(193, 190, 190) 0 0 0.02em 0.05em;
+}
+
+#icons{
+    display: flex;
+    justify-content:space-between;
+    width: 27em;
+    height: 2em;
+    margin-top: -2.2em;
+    margin-left: 1.5em;
+}
+#main-inf{
+    font-size: 0.8em; 
+}
+
+#main-inf a{
+    text-decoration: none;
+}
+
+#main-inf a:hover{
+    text-decoration: underline blue;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(210, 210, 210);
+    color: rgb(87, 86, 86);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+#footer-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+#footer-inf-1{
+    display: flex;
+    justify-content: start;
+    width: 33vw;
+}
+
+#footer-inf-2{
+    display: flex;
+    justify-content: center;
+    width: 33vw;
+}
+#footer-inf-3{
+    display: flex;
+    justify-content: end;
+    width: 33vw;
+}
+
+#footer a{
+    margin-right: 1em;
+    color: rgb(87, 86, 86);
+    text-decoration: none;
+}
+
+#footer a:hover{
+    text-decoration: underline grey;
+}
