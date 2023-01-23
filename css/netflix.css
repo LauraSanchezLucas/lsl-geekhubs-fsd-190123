@@ -115,3 +115,9 @@ a:hover {
 #film10 {
   background-image: url(../assets/netflix/cartelera/pelicula10.png);
 }
+
+@media (max-width: 360px){
+     a .navbar-l{
+        display: none
+    }
+}
